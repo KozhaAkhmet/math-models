@@ -1,6 +1,14 @@
+#include "Euler.h"
 #include <iostream>
 #include <vector>
+
 using namespace std;
+
+// Sample y_der function
+double y_der(double t, double y)
+{
+    return (t - y)/2;
+}
 
 // Function to calculate the Euler's method
 void euler(double (*y_der)(double, double), double a, double b, double t0, double y0, double h)
@@ -20,21 +28,4 @@ void euler(double (*y_der)(double, double), double a, double b, double t0, doubl
     }
 }
 
-// Sample y_der function
-double y_der(double t, double y)
-{
-    return (t - y)/2;
-}
-
-int main()
-{
-    double a = 0, b = 3, t0 = 0, y0 = 1;
-
-    euler(y_der, a, b, t0, y0, 1);
-    euler(y_der, a, b, t0, y0, 0.5); // Do not use h = 1/2. Use 0.5 instead.
-    euler(y_der, a, b, t0, y0, 0.25); 
-    euler(y_der, a, b, t0, y0, 0.125);
-
-    return 0;
-}
 

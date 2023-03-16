@@ -7,7 +7,22 @@ This repository includes math examples with solution in some programming languag
 ## Current Directory Tree:
 ```
 .
+├── Cramer
+├── Determinant
+│   ├── cpp
+│   │   ├── DeterminantSarrus.cpp
+│   │   ├── DeterminantSarrus.h
+│   │   └── main.py
+│   └── py
+│       ├── DeterminantSarrus.py
+│       └── main.py
 └── Euler
-    ├── Euler.cpp
-    └── Euler.py
+    ├── cpp
+    │   ├── Euler.cpp
+    │   ├── Euler.h
+    │   ├── main.cpp
+    │   └── output
+    └── py
+        ├── Euler.py
+        └── main.py
 ```
