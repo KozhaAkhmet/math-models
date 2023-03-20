@@ -6,3 +6,9 @@ def main():
 
 if __name__ == '__main__':
    main()
+
+
+"""
+Output:
+Determinant with sarrus is: 244.0
+"""
