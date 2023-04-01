@@ -1,8 +1,8 @@
-This repository includes math examples with solution in some programming languages.
+This repository includes math examples with solutions in some programming languages.
 
 ## Rules are:
-- Only use standart libraries.
-- You can implement own function/library and use as part of the solution. 
+- Only use standard libraries.
+- You can implement own function/library and use it as part of the solution. 
 
 ## Current Directory Tree:
 ```

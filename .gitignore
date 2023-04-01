@@ -33,5 +33,6 @@
 
 .vscode
 **/__pycache__
+crtree.sh
 
 *.ipynb
